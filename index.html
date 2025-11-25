@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EnergyHealth</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="shortcut icon" href="images/PixVerse_Image_Effect_prompt_make a logo for e.jpg" type="image/x-icon">
+
+  <!-- Biblioteca de ícones moderna -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <div class="overlay">
+
+  <!-- NAVBAR FIXA -->
+  <header>
+    <nav class="navContainer">
+      <div class="navTitleContainer">
+        <img src="images/PixVerse_Image_Effect_prompt_make a logo for e.jpg" alt="" class="navImage">
+        <h1>EnergyHealth</h1>
+      </div>
+
+      <div class="NavContainerList">
+        <ul class="NavList">
+          <li><a href="#table">Tabela</a></li>
+          <li><a href="#InputContainer">Calculadora</a></li>
+          <li><a href="#SlideContainer">Slides</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ASIDE LATERAL -->
+    <aside class="AsideContainer">
+      <a href="https://github.com" target="_blank"><i class="bi bi-github"></i></a>
+      <a href="https://trex-runner.com/" target="_blank"><i class="bi bi-controller"></i></a>
+      <a href="#"><i class="bi bi-info-circle"></i></a>
+    </aside>
+
+    <!-- HERO -->
+    <section class="hero">
+      <h1>Impacto das Energias Renováveis</h1>
+      <p>Uma análise simples sobre benefícios e estatísticas para apresentação acadêmica.</p>
+    </section>
+
+    <!-- INTRODUÇÃO -->
+    <section class="introduction" id="introduction">
+      <h2>Introdução</h2>
+      <p>
+        As energias renováveis têm assumido um papel crucial no combate às mudanças climáticas.
+        Elas oferecem alternativas sustentáveis às fontes tradicionais, reduzindo emissões de carbono e promovendo
+        desenvolvimento limpo.
+      </p>
+    </section>
+
+    <!-- TABELA -->
+    <section class="tableContainer" id="table">
+      <h2 class="tableTitle">Tabela Comparativa de Fontes Energéticas</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Fonte</th>
+            <th>Renovável?</th>
+            <th>Emissão de CO₂</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Solar</td>
+            <td>Sim</td>
+            <td>Muito baixa</td>
+          </tr>
+          <tr>
+            <td>Eólica</td>
+            <td>Sim</td>
+            <td>Baixa</td>
+          </tr>
+          <tr>
+            <td>Petróleo</td>
+            <td>Não</td>
+            <td>Alta</td>
+          </tr>
+          <tr>
+            <td>Carvão</td>
+            <td>Não</td>
+            <td>Muito alta</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- FORMULÁRIO CALCULADORA -->
+    <section class="InputContainer" id="InputContainer">
+      <h2>Simulador de Economia de Energia</h2>
+      <p>Insira valores estimados para calcular o potencial de economia usando energia solar:</p>
+
+      <div class="form-group">
+        <label>Consumo mensal (kWh):</label>
+        <input type="number" id="consumo" placeholder="Ex: 300" />
+      </div>
+
+      <div class="form-group">
+        <label>Custo por kWh (R$):</label>
+        <input type="number" id="custo" placeholder="Ex: 0.80" />
+      </div>
+
+      <button onclick="calcular()">Calcular Economia</button>
+
+      <p id="resultado" style="margin-top: 15px; font-weight: bold;"></p>
+    </section>
+
+    <!-- CARROSSEL -->
+    <section class="SlideContainer" id="SlideContainer">
+      <h2>Imagens ilustrativas</h2>
+
+      <div class="carousel">
+        <div class="slides">
+          <div class="slide">
+            <img src="images/energiaHeolica.jpg" alt="">
+            <p class="caption">Energia Eólica</p>
+          </div>
+
+          <div class="slide">
+            <img src="images/hidroeletrica.jpg" alt="">
+            <p class="caption">Energia Hidrelétrica</p>
+          </div>
+
+          <div class="slide">
+            <img src="images/energiaSolar.jpg" alt="">
+            <p class="caption">Energia Solar</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+  <!-- SCRIPT DO CARROSSEL + CALCULADORA -->
+  <script>
+   
+  </script>
+
+</body>
+</html>

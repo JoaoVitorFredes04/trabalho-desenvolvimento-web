@@ -1,0 +1,252 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: system-ui, Arial, sans-serif;
+    background-image: url("images/3370930.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 90px;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+
+/* NAVBAR */
+.navContainer {
+    background: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.navTitleContainer {
+    display: flex;
+    align-items: center;
+}
+
+.navImage {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.NavContainerList ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.NavList a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.NavList a:hover {
+    color: #d1ffd1;
+}
+
+/* ASIDE FIXO */
+.AsideContainer {
+    position: fixed;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 900;
+}
+
+.AsideContainer a {
+    color: white;
+    background: green;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 22px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.AsideContainer a:hover {
+    background: #004d00;
+    transform: scale(1.2,1) 
+     }
+
+/* SEÇÕES */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* INTRODUÇÃO */
+.introduction {
+    background: rgba(0, 200, 0, 0.85);
+    padding: 25px;
+    border-radius: 12px;
+    margin: 0px auto;
+    width: 85%;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    scroll-margin-top: 100px;
+}
+
+/* TABELA */
+.tableContainer {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin: 30px auto;
+    width: 85%;
+    scroll-margin-top: 100px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.tableTitle {
+    color: green;
+    padding: 10px;
+    border-radius: 12px;
+    background: #b7ffb7;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: green;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+/* CALCULADORA */
+.InputContainer {
+    background: white;
+    padding: 25px;
+    width: 85%;
+    margin: 30px auto;
+    border-radius: 12px;
+    text-align: center;
+    scroll-margin-top: 100px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 12px 25px;
+    background: green;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 12px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #004d00;
+}
+
+/* SLIDES */
+.SlideContainer {
+    width: 100%;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.SlideContainer h2 {
+    text-transform: uppercase;
+    background: green;
+    color: white;
+    padding: 10px 20px;
+    width: max-content;
+    margin: 0 auto 20px;
+    border-radius: 12px;
+}
+
+/* CARROSSEL */
+.carousel {
+    width: 650px;
+    height: 360px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 14px;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.slides {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    position: relative;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* LEGENDA */
+.caption {
+    background: rgba(0, 0, 0, 0.55);
+    color: white;
+    padding: 12px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-size: 16px;
+}
