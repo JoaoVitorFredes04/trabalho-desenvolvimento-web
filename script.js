@@ -61,7 +61,7 @@ const updateCartUI = () => {
 const addToCart = (name, price) => {
   cart.push({ name, price: parseFloat(price) });
   updateCartUI();
-};
+};  
 
 const removeItem = (index) => {
   cart.splice(index, 1);
