@@ -109,7 +109,7 @@ section {
 .hero p {
     font-size: 18px;
     margin-top: 10px;
-    color: #333;
+    color: #fff;
 }
 
 /* INTRODUÇÃO */
@@ -250,3 +250,20 @@ button:hover {
     bottom: 0;
     font-size: 16px;
 }
+
+                          /*Foote*/
+
+.FooterPage {
+    background-color: rgba(0, 200, 0, 0.5);
+    padding:20px;
+    text-align: center;
+}
+
+.contact {
+    font-size: 12px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin-Top:10px;
+}
+

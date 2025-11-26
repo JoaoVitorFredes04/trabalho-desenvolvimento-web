@@ -16,133 +16,175 @@
 <body>
   <div class="overlay">
 
-  <!-- NAVBAR FIXA -->
-  <header>
-    <nav class="navContainer">
-      <div class="navTitleContainer">
-        <img src="images/PixVerse_Image_Effect_prompt_make a logo for e.jpg" alt="" class="navImage">
-        <h1>EnergyHealth</h1>
-      </div>
+    <!-- NAVBAR FIXA -->
+    <header>
+      <nav class="navContainer">
+        <div class="navTitleContainer">
+          <img src="images/PixVerse_Image_Effect_prompt_make a logo for e.jpg" alt="" class="navImage">
+          <h1>EnergyHealth</h1>
+        </div>
 
-      <div class="NavContainerList">
-        <ul class="NavList">
-          <li><a href="#table">Tabela</a></li>
-          <li><a href="#InputContainer">Calculadora</a></li>
-          <li><a href="#SlideContainer">Slides</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
+        <div class="NavContainerList">
+          <ul class="NavList">
+            <li><a href="#table">Tabela</a></li>
+            <li><a href="#InputContainer">Calculadora</a></li>
+            <li><a href="#SlideContainer">Slides</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-  <main>
+    <main>
 
-    <!-- ASIDE LATERAL -->
-    <aside class="AsideContainer">
-      <a href="https://github.com" target="_blank"><i class="bi bi-github"></i></a>
-      <a href="https://trex-runner.com/" target="_blank"><i class="bi bi-controller"></i></a>
-      <a href="#"><i class="bi bi-info-circle"></i></a>
-    </aside>
+      <!-- ASIDE LATERAL -->
+      <aside class="AsideContainer">
+        <a href="https://github.com" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://trex-runner.com/" target="_blank"><i class="bi bi-controller"></i></a>
+        <a href="#FooterPage"><i class="bi bi-info-circle"></i></a>
+      </aside>
 
-    <!-- HERO -->
-    <section class="hero">
-      <h1>Impacto das Energias Renováveis</h1>
-      <p>Uma análise simples sobre benefícios e estatísticas para apresentação acadêmica.</p>
-    </section>
+      <!-- HERO -->
+      <section class="hero">
+        <h1>Impacto das Energias Renováveis</h1>
+        <p>Uma análise simples sobre benefícios e estatísticas para apresentação acadêmica.</p>
+      </section>
 
-    <!-- INTRODUÇÃO -->
-    <section class="introduction" id="introduction">
-      <h2>Introdução</h2>
-      <p>
-        As energias renováveis têm assumido um papel crucial no combate às mudanças climáticas.
-        Elas oferecem alternativas sustentáveis às fontes tradicionais, reduzindo emissões de carbono e promovendo
-        desenvolvimento limpo.
-      </p>
-    </section>
+      <!-- INTRODUÇÃO -->
+      <section class="introduction" id="introduction">
+        <h2>Introdução</h2>
+        <p>
+          As energias renováveis são fontes naturais que se regeneram constantemente, como o sol, vento, água e
+          biomassa. Elas são essenciais para reduzir a poluição e combater o aquecimento global, pois geram eletricidade
+          com pouco ou nenhum impacto ambiental.
 
-    <!-- TABELA -->
-    <section class="tableContainer" id="table">
-      <h2 class="tableTitle">Tabela Comparativa de Fontes Energéticas</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Fonte</th>
-            <th>Renovável?</th>
-            <th>Emissão de CO₂</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Solar</td>
-            <td>Sim</td>
-            <td>Muito baixa</td>
-          </tr>
-          <tr>
-            <td>Eólica</td>
-            <td>Sim</td>
-            <td>Baixa</td>
-          </tr>
-          <tr>
-            <td>Petróleo</td>
-            <td>Não</td>
-            <td>Alta</td>
-          </tr>
-          <tr>
-            <td>Carvão</td>
-            <td>Não</td>
-            <td>Muito alta</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
+          Entre os principais tipos estão:
 
-    <!-- FORMULÁRIO CALCULADORA -->
-    <section class="InputContainer" id="InputContainer">
-      <h2>Simulador de Economia de Energia</h2>
-      <p>Insira valores estimados para calcular o potencial de economia usando energia solar:</p>
+          Solar: usa a luz do sol para produzir energia.
 
-      <div class="form-group">
-        <label>Consumo mensal (kWh):</label>
-        <input type="number" id="consumo" placeholder="Ex: 300" />
-      </div>
+          Eólica: gerada pela força dos ventos.
 
-      <div class="form-group">
-        <label>Custo por kWh (R$):</label>
-        <input type="number" id="custo" placeholder="Ex: 0.80" />
-      </div>
+          Hidrelétrica: aproveita o movimento da água.
 
-      <button onclick="calcular()">Calcular Economia</button>
+          Biomassa: produzida a partir de resíduos orgânicos.
 
-      <p id="resultado" style="margin-top: 15px; font-weight: bold;"></p>
-    </section>
+          Investir nessas fontes ajuda a preservar recursos, diminuir emissões de CO₂ e criar um futuro mais sustentável
+          para o planeta. 🌎⚡
+        </p>
+      </section>
 
-    <!-- CARROSSEL -->
-    <section class="SlideContainer" id="SlideContainer">
-      <h2>Imagens ilustrativas</h2>
+      <!-- TABELA -->
+      <section class="tableContainer" id="table">
+        <h2 class="tableTitle">Tabela Comparativa de Fontes Energéticas</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Fonte</th>
+              <th>Renovável?</th>
+              <th>Emissão de CO₂</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Solar</td>
+              <td>Sim</td>
+              <td>Muito baixa</td>
+            </tr>
+            <tr>
+              <td>Eólica</td>
+              <td>Sim</td>
+              <td>Baixa</td>
+            </tr>
+            <tr>
+              <td>Petróleo</td>
+              <td>Não</td>
+              <td>Alta</td>
+            </tr>
+            <tr>
+              <td>Carvão</td>
+              <td>Não</td>
+              <td>Muito alta</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
 
-      <div class="carousel">
-        <div class="slides">
-          <div class="slide">
-            <img src="images/energiaHeolica.jpg" alt="">
-            <p class="caption">Energia Eólica</p>
-          </div>
+      <!-- FORMULÁRIO CALCULADORA -->
+      <section class="InputContainer" id="InputContainer">
+        <h2>Simulador de Economia de Energia</h2>
+        <p>Insira valores estimados para calcular o potencial de economia usando energia solar:</p>
 
-          <div class="slide">
-            <img src="images/hidroeletrica.jpg" alt="">
-            <p class="caption">Energia Hidrelétrica</p>
-          </div>
+        <div class="form-group">
+          <label>Consumo mensal (kWh):</label>
+          <input type="number" id="consumo" placeholder="Ex: 300" />
+        </div>
 
-          <div class="slide">
-            <img src="images/energiaSolar.jpg" alt="">
-            <p class="caption">Energia Solar</p>
+        <div class="form-group">
+          <label>Custo por kWh (R$):</label>
+          <input type="number" id="custo" placeholder="Ex: 0.80" />
+        </div>
+
+        <button onclick="calcular()">Calcular Economia</button>
+
+        <p id="resultado" style="margin-top: 15px; font-weight: bold;"></p>
+      </section>
+
+      <!-- CARROSSEL -->
+      <section class="SlideContainer" id="SlideContainer">
+        <h2>Imagens ilustrativas</h2>
+
+        <div class="carousel">
+          <div class="slides">
+            <div class="slide">
+              <img src="images/energiaHeolica.jpg" alt="">
+              <p class="caption">Energia Eólica</p>
+            </div>
+
+            <div class="slide">
+              <img src="images/hidroeletrica.jpg" alt="">
+              <p class="caption">Energia Hidrelétrica</p>
+            </div>
+
+            <div class="slide">
+              <img src="images/energiaSolar.jpg" alt="">
+              <p class="caption">Energia Solar</p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-  </main>
-</div>
-  
+    </main>
+
+    <footer class="FooterPage" id="FooterPage">
+      <div>
+        <p>&copy; Desenvolvido por Joao Vitor Fredes e João Vitor Lorentino</p>
+      </div>
+
+      <div>
+        <p>
+          São José - SC, Brasil
+        </p>
+      </div>
+      <div class="contact">
+
+        <p>
+          GitHub: <a
+            href="https://github.com/JoaoVitorFredes04/trabalho-desenvolvimento-web">https://github.com/JoaoVitorFredes04/trabalho-desenvolvimento-web</a>
+        </p>
+
+
+        <p>
+          whatsApp: Joao Vitor Lorentino (48) 98479-0434
+        </p>
+
+        <p>
+          whatsApp: Joao Vitor Fredes (48) 98818-8749
+        </p>
+
+      </div>
+    </footer>
+  </div>
 
 </body>
 <script src="script.js"></script>
+
 </html>
